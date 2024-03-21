@@ -1,4 +1,4 @@
-(* Plusieurs solutions sont proposées pour certains exercices. *)
+(* (* Plusieurs solutions sont proposées pour certains exercices. *)
 
 (* Q1 *)
 let last ll = List.rev ll |> List.hd
@@ -132,3 +132,4 @@ let remove_dup ll =
           if prev = elt then (elt, acc) else (elt, elt :: acc))
         xs (hd, [])
       |> snd
+ *)

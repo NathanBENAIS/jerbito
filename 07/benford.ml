@@ -1,4 +1,4 @@
-module CharMap = Map.Make(Char)
+(* module CharMap = Map.Make(Char)
 
 let char_digit i = char_of_int (i + 48)
 let init = List.init 10 (fun i -> char_digit i, 0) |> CharMap.of_list
@@ -34,3 +34,4 @@ let distrib' n =
   |> CharMap.to_list
   |> List.map (fun (c, count) -> (c, 100. *. float_of_int count /. float_of_int n))
   |> List.sort (fun (_, a) (_, b) -> compare b a)
+ *)
